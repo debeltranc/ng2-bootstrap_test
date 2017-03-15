@@ -1,28 +1,22 @@
 # Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
+This is intended to be a demo and hands-on for the Software Engineering II course
 
-## Development server
+## Install
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Clone normally, then go to the folder where this project has been cloned and run the following commands:
+Update node and tell the system to use the latest version (replace a.b.c to the installed version, e.g: 7.7.3)
+```
+nvm install node
+nvm use x.y.z
+nvm alias default vx.y.z
+```
+Install npm on the recently installed node
+`npm install -g npm`
+Make sure that you are on the folder where package.json is located and install the dependencies.
+```
+npm install -g
+npm install
+```
+Run the application to make sure it works
+`ng serve --host 0.0.0.0 --port 8080 `
