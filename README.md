@@ -5,7 +5,7 @@ This is intended to be a demo and hands-on for the Software Engineering II cours
 ## Install
 
 Clone normally, then go to the folder where this project has been cloned and run the following commands:
-Update node and tell the system to use the latest version (replace a.b.c to the installed version, e.g: 7.7.3)
+Update node and tell the system to use the latest version (replace x.y.z to the installed version, e.g: 7.7.3)
 ```
 nvm install node
 nvm use x.y.z
